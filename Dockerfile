@@ -11,7 +11,7 @@ RUN apt-get update -y \
 # install the notebook package etc.
 RUN pip install --no-cache --upgrade pip \
     && pip install --no-cache notebook jupyterlab \
-    && pip install datalad==0.15.4
+    && pip install --no-cache datalad==0.15.4
 
 # create user with a home directory
 ARG NB_USER=jovyan
