@@ -1,6 +1,6 @@
 # binder-docker-sample
 
-Dockerfileを使ってBinder環境をカスタマイズする一例として作成したリポジトリです。詳しくは[ブログにて記事も書いています](https://tubuyaki-tech.com/tubu-binder-datalad/)ので、よろしければそちらへ。記事にも書きましたが、Gitのバージョン管理に、大容量ファイルの「分散管理」を可能にするgit-annexを組み合わせたツール「Datalad」を導入した状態での起動となります。
+Dockerfileを使ってBinder環境をカスタマイズする一例として作成したリポジトリです。Gitのバージョン管理に、大容量ファイルの「分散管理」を可能にするgit-annexを組み合わせたツール「Datalad」を導入した状態での起動となります。
 
 以下のリンクから、mybinder.orgで起動ができます。
 
