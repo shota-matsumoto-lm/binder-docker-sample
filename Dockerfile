@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:ubuntu-20.04
 
 # install debian package (datalad-cli etc.)
 RUN apt-get update -y \
