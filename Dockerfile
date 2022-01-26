@@ -1,4 +1,4 @@
-FROM python:3.7-slim-buster
+FROM jupyter/scipy-notebook
 
 # install debian package (datalad-cli etc.)
 RUN apt-get update -y \
