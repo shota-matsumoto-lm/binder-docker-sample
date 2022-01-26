@@ -1,11 +1,11 @@
 FROM jupyter/scipy-notebook:ubuntu-20.04
 
 # install debian package (datalad-cli etc.)
-RUN apt-get update -y \
-    && apt-get upgrade -y \
-    && apt-get autoremove -y \
-    && apt-get install -y datalad \
-    && apt-get clean \
+RUN apt update -y \
+    && apt upgrade -y \
+    && apt autoremove -y \
+    && apt install -y datalad \
+    && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
 # install the notebook package etc.
