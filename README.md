@@ -7,3 +7,4 @@ Dockerfileを使ってBinder環境をカスタマイズする一例として作�
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fugithora812/binder-docker-sample/HEAD)
 
 
+
